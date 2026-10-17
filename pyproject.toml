@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "honu-context-powered-todo-mcp"
+version = "0.1.0"
+description = ""
+authors = ["freyamade <freya.broderick@honu.ai>"]
+readme = "README.md"
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastmcp = "^3.0.0"
+tenacity = "^9.1.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
